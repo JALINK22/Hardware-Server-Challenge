@@ -6,48 +6,63 @@
 ----------------------------------------------
 Set up a local development environment using VirtualBox (free) or similar virtualization software \
 Create two virtual machines\:  
-One running Linux (Ubuntu Server recommended) \
-One running Windows Server (evaluation version) \
-Configure networking between the VMs with the following requirements\:  
-Both VMs should be able to ping each other \ 
-Create a simple shared folder accessible from both VMs \
-Document the IP addressing scheme used \
-Demonstrate working connectivity by\: 
-Including ping test results in your documentation \
-Taking screenshots of successful file sharing between VMs \
-Showing network configuration from both systems 
+
+- One running Linux (Ubuntu Server recommended) 
+- One running Windows Server (evaluation version) 
+
+Configure networking between the VMs with the following requirements\:
+  
+- Both VMs should be able to ping each other  
+- Create a simple shared folder accessible from both VMs 
+- Document the IP addressing scheme used 
+
+Demonstrate working connectivity by\:
+  
+- Including ping test results in your documentation 
+- Taking screenshots of successful file sharing between VMs 
+- Showing network configuration from both systems 
 
 ## 2. Server Configuration and Security (30 points)
 ----------------------------------------------
-Implement the following on the Linux server\:  
-Basic firewall configuration (UFW is recommended) \
-SSH with key-based authentication \
-A simple web server (nginx/apache) with a status page \
-Basic monitoring setup using Netdata (recommended for easy setup) \
-On the Windows server\:  
-Configure Windows Firewall \
-Set up IIS with a basic webpage \
-Enable Windows Performance Monitor for basic metrics \
-Implement a basic backup solution using one of these options: \
-Windows Server Backup to shared folder \
-Rsync from Linux to shared folder \
-Any other tool of your choice (e.g., Duplicati, which is free and works on both systems) \
+Implement the following on the Linux server\:
+
+- Basic firewall configuration (UFW is recommended) 
+- SSH with key-based authentication 
+- A simple web server (nginx/apache) with a status page 
+- Basic monitoring setup using Netdata (recommended for easy setup) 
+
+On the Windows server\: 
+
+- Configure Windows Firewall 
+- Set up IIS with a basic webpage 
+- Enable Windows Performance Monitor for basic metrics
+  
+Implement a basic backup solution using one of these options\: 
+
+- Windows Server Backup to shared folder 
+- Rsync from Linux to shared folder 
+- Any other tool of your choice (e.g., Duplicati, which is free and works on both systems) 
+
 Must demonstrate backup working by\: 
-Showing successful backup completion \
-Performing a test restore \
-Documenting the backup schedule/retention policy 
+
+- Showing successful backup completion 
+- Performing a test restore 
+- Documenting the backup schedule/retention policy 
 
 ### 3. Automation and Documentation (30 points)
 ----------------------------------------------
-Write basic automation scripts (choose one)\: 
-Ansible playbooks for Linux configuration \
-PowerShell scripts for Windows configuration \
+Write basic automation scripts (choose one)\:
+
+- Ansible playbooks for Linux configuration 
+- PowerShell scripts for Windows configuration 
+
 Create clear documentation including\: 
-Network diagram \
-Setup instructions \
-Backup procedures \
-Monitoring overview \
-Security measures implemented 
+
+- Network diagram 
+- Setup instructions 
+- Backup procedures 
+- Monitoring overview 
+- Security measures implemented 
 
 
 ---------------------------------------------
